@@ -1,0 +1,12 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    user-select: none;
+}
+.contenedor-tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
