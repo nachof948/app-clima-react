@@ -14,12 +14,14 @@ section{
 .tarjeta{
     display: flex;
     align-items: flex-start;
-    background-color: #2e3d4c;
+    background-color: #325158;;
     width: 70%;
     height: 30rem;
     border-radius: 25px;
 }
 .tarjeta-info{
+    display: flex;
+    flex-direction: column;
     padding: 0.5rem 0rem 0rem 0.5rem;
     width: 100%;
 }
@@ -74,15 +76,45 @@ section{
     font-size: 1.2rem;
     letter-spacing: 1px;
     font-weight: 400;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
 }
-.tarjeta-info p{
+.mas-detalles p{
     margin-top: 0.5rem;
 }
-.tarjeta-info span{
+.mas-detalles span{
     margin-left: 0.3rem;
 }
 hr{
     max-width: 54.5rem;
     margin-top: 0.5rem;
-
+}
+.pronosticos{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pronostico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #3b757f;
+    border: 1px solid #3b757f;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 250ms;
+}
+.pronostico:hover{
+    background-color: transparent;
+}
+.pronostico img{
+    width: 4rem;
+    height: 4rem;
+}
+.pron-temp{
+    font-size: 3rem;
 }

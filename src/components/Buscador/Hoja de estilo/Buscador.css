@@ -33,10 +33,10 @@ button{
     font-size: 1.2rem;
     border-radius: 0px 25px 25px 0px;
     border: 1px solid white;
-    background-color: #2e3d4c;
+    background-color: #325158;
     cursor: pointer;
     transition: all 250ms;
 }
 button:hover{
-    background-color: #7a9cb6;
+    background-color: #5faab1;
 }
