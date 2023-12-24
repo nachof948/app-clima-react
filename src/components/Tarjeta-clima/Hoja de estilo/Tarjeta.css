@@ -9,4 +9,80 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 90%;
+}
+.tarjeta{
+    display: flex;
+    align-items: flex-start;
+    background-color: #2e3d4c;
+    width: 70%;
+    height: 30rem;
+    border-radius: 25px;
+}
+.tarjeta-info{
+    padding: 0.5rem 0rem 0rem 0.5rem;
+    width: 100%;
+}
+.tarjeta-img{
+    position: relative;
+}
+.tarjeta-titulo{
+    position: absolute;
+    font-size: 3rem;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+    font-weight: 500;
+}
+.tarjeta-fecha{
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+    z-index: 10;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.tarjeta-temp{
+    position: absolute;
+    top: 20rem;
+    left: 1rem;
+    z-index: 10; 
+    font-size: 4rem;
+    font-weight: 400;
+}
+.tarjeta-descripcion{
+    position: absolute;
+    top: 24rem;
+    left: 0rem;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.tarjeta-icon{
+    width: 5rem;
+    height: 5rem;
+}
+.img {
+    border-radius: 25px;
+    height: 30rem;
+    width: 20rem;
+    filter: grayscale(1); /* Combinación de efectos: escala de grises y oscurecimiento */
+}
+.sensacion{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.tarjeta-info p{
+    margin-top: 0.5rem;
+}
+.tarjeta-info span{
+    margin-left: 0.3rem;
+}
+hr{
+    max-width: 54.5rem;
+    margin-top: 0.5rem;
+
 }

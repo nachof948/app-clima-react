@@ -4,10 +4,10 @@ import { Buscador } from '../Buscador/Buscador';
 import { Tarjeta } from '../Tarjeta-clima/Tarjeta';
 const Clima = () => {
   const API_KEY= '56fc54e07cbc820b405d4839fad15d5a'
-  let urlClima = `https://api.openweathermap.org/data/2.5/weather?&units=metric&appid=${API_KEY}&lang=es`
+  let urlClima = `https://api.openweathermap.org/data/2.5/weather?&appid=${API_KEY}&lang=es`
   let ciudadUrl = '&q='
   
-  let urlPronostico = `https://api.openweathermap.org/data/2.5/forecast?&units=metric&appid=${API_KEY}&lang=es`
+  let urlPronostico = `https://api.openweathermap.org/data/2.5/forecast?&appid=${API_KEY}&lang=es`
 
   const [clima, setClima] = useState([])
   const [pronostico, setPronostico] = useState([])
