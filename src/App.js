@@ -18,7 +18,6 @@ function App() {
         <div className='presentacion'>
           <div>
             <h1>PronósticoYa!</h1>
-            <img src="./components/NavBar/Favicon.png" alt=""/>
           </div>
           <div className="container">
             <div className="cloud front">
