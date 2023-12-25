@@ -65,18 +65,18 @@ const Tarjeta = ({mostrarInformacion, cargandoInformacion, clima, pronostico}) =
               <hr/>
               <div className='pronosticos'>
                 <div className="pronostico">
-                  <p className='sensacion'>{pronosticoFecha3}hs</p>
-                  <p className='sensacion'><img src={urlIcon3} alt="Icono" />{pronostico.list[1].weather[0].description}</p>
+                  <p className='sensacion pron-fecha'>{pronosticoFecha3}hs</p>
+                  <p className='sensacion pron-detalles'><img src={urlIcon3} alt="Icono" />{pronostico.list[1].weather[0].description}</p>
                   <p className='pron-temp'>{(pronostico.list[1].main.temp - 273.15).toFixed(1)}°C</p>
                 </div>
                 <div className="pronostico">
-                  <p className='sensacion'>{pronosticoFecha6}hs</p>
-                  <p className='sensacion'><img src={urlIcon6} alt="Icono" />{pronostico.list[2].weather[0].description}</p>
+                  <p className='sensacion pron-fecha'>{pronosticoFecha6}hs</p>
+                  <p className='sensacion pron-detalles'><img src={urlIcon6} alt="Icono" />{pronostico.list[2].weather[0].description}</p>
                   <p className='pron-temp'>{(pronostico.list[2].main.temp - 273.15).toFixed(1)}°C</p>
                 </div>
                 <div className="pronostico">
-                  <p className='sensacion'>{pronosticoFecha9}hs</p>
-                  <p className='sensacion'><img src={urlIcon9} alt="Icono" />{pronostico.list[3].weather[0].description}</p>
+                  <p className='sensacion pron-fecha'>{pronosticoFecha9}hs</p>
+                  <p className='sensacion pron-detalles'><img src={urlIcon9} alt="Icono" />{pronostico.list[3].weather[0].description}</p>
                   <p className='pron-temp'>{(pronostico.list[3].main.temp - 273.15).toFixed(1)}°C</p>
                 </div>
               </div>

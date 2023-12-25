@@ -16,7 +16,10 @@ function App() {
     <div className="App">
       {cargando ? (
         <div className='presentacion'>
-          <h1>PronósticoYa!</h1>
+          <div>
+            <h1>PronósticoYa!</h1>
+            <img src="./components/NavBar/Favicon.png" alt=""/>
+          </div>
           <div className="container">
             <div className="cloud front">
               <span className="left-front"></span>

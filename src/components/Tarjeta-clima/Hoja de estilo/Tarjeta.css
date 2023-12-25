@@ -10,13 +10,14 @@ section{
     justify-content: center;
     align-items: center;
     width: 90%;
+    padding-bottom:2rem;
 }
 .tarjeta{
     display: flex;
     align-items: flex-start;
     background-color: #325158;;
     width: 70%;
-    height: 30rem;
+    height: fit-content;
     border-radius: 25px;
 }
 .tarjeta-info{
@@ -71,6 +72,7 @@ section{
     height: 30rem;
     width: 20rem;
     filter: grayscale(1); /* Combinación de efectos: escala de grises y oscurecimiento */
+    object-fit: cover;
 }
 .sensacion{
     font-size: 1.2rem;
@@ -95,6 +97,7 @@ hr{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 2rem;
 }
 .pronostico{
     display: flex;
@@ -103,7 +106,8 @@ hr{
     gap: 1.5rem;
     background-color: #3b757f;
     border: 1px solid #3b757f;
-    padding: 3rem 2rem;
+    width: 30%;
+    padding: 2.5rem 0rem;
     border-radius: 20px;
     cursor: pointer;
     transition: all 250ms;
@@ -117,4 +121,139 @@ hr{
 }
 .pron-temp{
     font-size: 3rem;
+}
+/* MEDIA-QUERIES */
+@media (max-width: 1550px) {
+    .pron-fecha{
+        font-size: 1rem;
+    }
+    .tarjeta{
+        width: 80%;
+    }
+}
+@media (max-width: 1440px) {
+    .pronostico img{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .pron-detalles{
+        font-size: 1rem;
+    }
+    .pron-fecha{
+        font-size: 0.9rem;
+    }
+
+}
+@media (max-width: 1190px) {
+    .pron-fecha{
+        font-size: 0.8rem;
+    }
+    .pron-temp{
+        font-size: 2.5rem;
+    }
+    .pron-detalles{
+        font-size: 0.9rem;
+    }
+    .img {
+        width: 17rem;
+    }
+    .tarjeta{
+        width: 90%;
+    }
+}
+@media (max-width:1024px) {
+    .tarjeta{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img {
+        width: 79.5vw;
+    }
+    .pronosticos{
+        justify-content: space-evenly;
+    }
+    hr{
+        width: 76vw;
+        margin-left: 0.6rem;
+    }
+}
+@media (max-width:750px) {
+    hr{
+        width: 74vw;
+        margin-left: 0.6rem;
+    }
+    .img {
+        width: 78.6vw;
+    }
+    .pronosticos{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .pronostico{
+        width: 55vw;
+    }
+    .pron-fecha{
+        font-size: 1.2rem;
+    }
+    .pron-temp{
+        font-size: 3rem;
+    }
+    .pron-detalles{
+        font-size: 1.2rem;
+    }
+    .pronostico img{
+        width: 4rem;
+        height: 4rem;
+    }
+}
+@media (max-width:590px) {
+    input{
+        width: 20rem;
+    }
+}
+@media (max-width:483px) {
+    input{
+        width: 16rem;
+    }
+    .pronostico{
+        width: 60vw;
+    }
+    .img{
+        width: 78vw;
+    }
+}
+@media (max-width:400px) {
+    input{
+        width: 13rem;
+    }
+    .pronostico{
+        width: 65vw;
+    }
+    hr{
+        width: 70vw;
+        margin-left: 0.6rem;
+    }
+    .sensacion{
+        font-size: 1rem;
+    }
+}
+@media (max-width:350px) {
+    input{
+        width: 11rem;
+
+    }
+    .pronostico{
+        width: 65vw;
+    }
+    hr{
+        width: 70vw;
+        margin-left: 0.6rem;
+    }
+    .sensacion{
+        font-size: 1rem;
+    }
+    .img{
+        width: 77.7vw;
+        height: 28rem;
+    }
 }
