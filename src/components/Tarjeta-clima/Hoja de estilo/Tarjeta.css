@@ -167,7 +167,7 @@ hr{
         align-items: center;
     }
     .img {
-        width: 79.5vw;
+        width: 81vw;
     }
     .pronosticos{
         justify-content: space-evenly;
@@ -181,9 +181,6 @@ hr{
     hr{
         width: 74vw;
         margin-left: 0.6rem;
-    }
-    .img {
-        width: 78.6vw;
     }
     .pronosticos{
         flex-direction: column;
@@ -219,7 +216,7 @@ hr{
         width: 60vw;
     }
     .img{
-        width: 78vw;
+        width: 80.7vw;
     }
 }
 @media (max-width:400px) {
@@ -253,7 +250,6 @@ hr{
         font-size: 1rem;
     }
     .img{
-        width: 77.7vw;
         height: 28rem;
     }
 }
